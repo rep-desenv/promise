@@ -14,23 +14,6 @@ function filaPrimeiro(resolver) {
 
     return customPromise
     
-}
-
-// function filaSegundo() {
-    
-//     setTimeout(() => {
-//         console.log ('Segundo!')
-//     }, 2000);
-
-// }
-
-// function filaTerceiro() {
-    
-//     setTimeout(() => {
-//         console.log ('Terceiro!')
-//     }, 4000);
-
-// }
 
 filaPrimeiro(true).then(data => {
     console.log(data)
