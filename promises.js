@@ -3,17 +3,17 @@ function filaPrimeiro(resolver) {
     const customPromise = new Promise((resolve, reject) => {
         setTimeout(() => {
             //console.log ('Primeiro!')
-            if (resolver ) {
+            if (resolver) {
                 resolve('Promise Executado')
             } else {
                 reject('Promise NÃO executado')
             }
         }, 4000)
 
-       })
+    })
 
     return customPromise
-    
+}
 
 filaPrimeiro(true).then(data => {
     console.log(data)
